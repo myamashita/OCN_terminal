@@ -22,7 +22,7 @@ else:
     installed_dir = os.path.basename(os.getcwd())
 
 def get_setting(key, default=None):
-    settings = sublime.load_settings('Terminal.sublime-settings')
+    settings = sublime.load_settings('OCN_terminal.sublime-settings')
     os_specific_settings = {}
     return os_specific_settings.get(key, settings.get(key, default))
 
