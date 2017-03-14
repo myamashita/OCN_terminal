@@ -1,0 +1,11 @@
+[
+    {
+        "caption": "Terminal: Open IPython (--pylab)",
+        "command": "open_terminal"
+    },
+    {
+        "caption": "Terminal: Open IPython ",
+        "command": "open_terminal",
+        "args":{"parameters": [""]}
+    },
+]
