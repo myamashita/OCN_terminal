@@ -12,17 +12,17 @@
                 "children":
                 [
                     {
-                        "caption": "Terminal",
+                        "caption": "OCN_terminal",
                         "children":
                         [
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/Terminal/Default.sublime-settings"},
+                                "args": {"file": "${packages}/OCN_terminal/Default.sublime-settings"},
                                 "caption": "Settings – Default"
                             },
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/User/Terminal.sublime-settings"},
+                                "args": {"file": "${packages}/User/OCN_terminal.sublime-settings"},
                                 "caption": "Settings – User"
                             },
                             {
@@ -31,14 +31,14 @@
                             {
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/Terminal/Default.sublime-keymap"
+                                    "file": "${packages}/OCN_terminal/Default.sublime-keymap"
                                 },
                                 "caption": "Key Bindings – Default"
                             },
                             {
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/User/Terminal.sublime-keymap"
+                                    "file": "${packages}/User/OCN_terminal.sublime-keymap"
                                 },
                                 "caption": "Key Bindings – User"
                             },
