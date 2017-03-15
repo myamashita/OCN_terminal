@@ -119,5 +119,5 @@ class OpenTerminalCommand(sublime_plugin.WindowCommand, TerminalCommand):
             path = os.path.dirname(path)
 
         self.run_terminal(path, parameters)
-        print(parameters)
+
 
